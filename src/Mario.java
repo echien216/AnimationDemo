@@ -34,7 +34,7 @@ public class Mario extends MovingImage
 		vy += 0.5;
 		super.y += vy;
 		
-		System.out.println("asdf");
+		System.out.println("kappa");
 	}
 
 
