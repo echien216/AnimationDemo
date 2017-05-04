@@ -19,7 +19,6 @@ public class Mario extends MovingImage
 		vy = 0;
 	}
 
-	// METHODS
 	public void walk(int dir) 
 	{
 		x += dir * 10;
@@ -29,13 +28,15 @@ public class Mario extends MovingImage
 
 	public void jump() 
 	{
-		// JUMP!
+		
 	}
 
 	public void act(ArrayList<Shape> obstacles) 
 	{
 		vy += 0.5;
 		super.y += vy;
+		
+		System.out.println("asdf");
 	}
 
 
