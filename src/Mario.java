@@ -28,13 +28,13 @@ public class Mario extends MovingImage
 
 	public void jump() 
 	{
-		
+		vy -= 0.2;
 	}
 
 	public void act(ArrayList<Shape> obstacles) 
 	{
-		vy += 0.5;
-		super.y += vy;
+		//vy += 0.5;
+		//super.y += vy;
 		
 		System.out.println("kappa");
 	}
